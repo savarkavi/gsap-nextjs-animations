@@ -21,7 +21,7 @@ const AnimationWrapper = ({
   return (
     <div className="h-screen bg-[#1877F2] pb-4 px-4 flex flex-col">
       <AnimationHeader />
-      <main className="bg-white h-full w-full rounded-xl border flex items-center justify-center">
+      <main className="bg-white h-full w-full rounded-xl border flex items-center justify-center overflow-hidden">
         {children}
       </main>
     </div>
